@@ -6,19 +6,19 @@ import Gallery from './components/Gallery';
 function App() {
   const [categories] = useState([
     {
-      name: 'Commercial',
+      name: 'commercial',
       descripton: 'Photos of grocery stores, food trucks, and other commercial projects',
     },
     { 
-      name: 'Portraits', 
+      name: 'portraits', 
       descripton: 'Portraits of people in my life'
     },
     {
-      name: 'Food',
+      name: 'food',
       descripton: 'Delicious delicacies'
     },
     {
-      name: 'Landscape',
+      name: 'landscape',
       descripton: 'Fields, farmhouses, waterfalls, and the beauty of nature'
     },
   ]);
